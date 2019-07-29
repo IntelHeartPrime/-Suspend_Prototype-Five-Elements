@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public static class MVC 
+public static class MVC
 {
     //存储MVC
     //名字-模型
