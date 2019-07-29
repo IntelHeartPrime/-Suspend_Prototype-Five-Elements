@@ -55,28 +55,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Application\2.View\UIMain.cs" />
+     <Compile Include="Assets\Scripts\Application\3.Controller\ChangeSceneCommand.cs" />
+     <Compile Include="Assets\Scripts\Application\3.Controller\TestCommand.cs" />
      <Compile Include="Assets\Scripts\Application\Consts.cs" />
-     <Compile Include="Assets\Scripts\Application\testVisualMVC\test.cs" />
-     <Compile Include="Assets\Scripts\Application\testVisualMVC\testController.cs" />
-     <Compile Include="Assets\Scripts\Application\testVisualMVC\View222.cs" />
-     <Compile Include="Assets\Scripts\Application\testVisualMVC\VisualConsts.cs" />
-     <Compile Include="Assets\Scripts\Framework\MVC\ApplicationBase.cs" />
-     <Compile Include="Assets\Scripts\Framework\MVC\Controller.cs" />
-     <Compile Include="Assets\Scripts\Framework\MVC\Model.cs" />
-     <Compile Include="Assets\Scripts\Framework\MVC\MVC.cs" />
-     <Compile Include="Assets\Scripts\Framework\MVC\View.cs" />
+     <Compile Include="Assets\Scripts\Application\RegisterManager\RegisterManager.cs" />
+     <Compile Include="Assets\Scripts\Application\RegisterManager\RegisterManager1.cs" />
+     <Compile Include="Assets\Scripts\Application\RegisterManager\RegisterManger2.cs" />
      <Compile Include="Assets\Scripts\Framework\Pool\IReusable.cs" />
      <Compile Include="Assets\Scripts\Framework\Pool\ObjectPool.cs" />
      <Compile Include="Assets\Scripts\Framework\Pool\ReusableObject.cs" />
-     <Compile Include="Assets\Scripts\Framework\Pool\Singleton.cs" />
      <Compile Include="Assets\Scripts\Framework\Pool\SubPool.cs" />
+     <Compile Include="Assets\Scripts\Framework\Singeton\Singleton.cs" />
      <Compile Include="Assets\Scripts\Framework\Sound\Sound.cs" />
-     <Compile Include="Assets\Scripts\VisualMVC\MVC\Base\NotDelete.cs" />
-     <Compile Include="Assets\Scripts\VisualMVC\MVC\VisualController.cs" />
-     <Compile Include="Assets\Scripts\VisualMVC\MVC\VisualModel.cs" />
-     <Compile Include="Assets\Scripts\VisualMVC\MVC\VisualMVC.cs" />
-     <Compile Include="Assets\Scripts\VisualMVC\MVC\VisualView.cs" />
-     <Compile Include="Assets\Scripts\VisualMVC\SingetonMVC\Singleton.cs" />
+     <Compile Include="Assets\Scripts\Framework\VisualMVC\Base\NotDelete.cs" />
+     <Compile Include="Assets\Scripts\Framework\VisualMVC\VisualController.cs" />
+     <Compile Include="Assets\Scripts\Framework\VisualMVC\VisualModel.cs" />
+     <Compile Include="Assets\Scripts\Framework\VisualMVC\VisualMVC.cs" />
+     <Compile Include="Assets\Scripts\Framework\VisualMVC\VisualView.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/fotoable/五行/Ball/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
