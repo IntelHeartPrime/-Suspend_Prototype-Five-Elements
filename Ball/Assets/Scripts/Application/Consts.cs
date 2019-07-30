@@ -4,6 +4,25 @@ using UnityEngine;
 
 public static class Consts
 {
+    //enum
+    public enum ELEMENTCONTAINER_TYPE{
+        WEAPON=1,
+        TREE=2,
+        WATER=3,
+        FIRE=4,
+        WALL=5
+
+    }
+    public enum ELEMENT_TYPE
+    {
+        WEAPON_SIMPLE=1,
+        TREE_SIMPLE=2,
+        WATER_SIMPLE=3,
+        FIRE_SIMPLE=4,
+        WALL_SIMPLE=5
+    }
+    
+    
     //Model
 
     //View

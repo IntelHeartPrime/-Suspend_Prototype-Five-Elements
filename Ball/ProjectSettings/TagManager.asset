@@ -7,6 +7,7 @@ TagManager:
   - Commands
   - MVC
   - models
+  - RegisterManager
   layers:
   - Default
   - TransparentFX
