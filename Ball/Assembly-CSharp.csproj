@@ -60,6 +60,8 @@
      <Compile Include="Assets\Scripts\Application\3.Controller\TestCommand.cs" />
      <Compile Include="Assets\Scripts\Application\Consts.cs" />
      <Compile Include="Assets\Scripts\Application\Objects\Base\ElementContainer.cs" />
+     <Compile Include="Assets\Scripts\Application\Objects\Base\ElementUnit.cs" />
+     <Compile Include="Assets\Scripts\Application\Objects\Base\Enemy.cs" />
      <Compile Include="Assets\Scripts\Application\RegisterManager\RegisterManager.cs" />
      <Compile Include="Assets\Scripts\Application\RegisterManager\RegisterManager1.cs" />
      <Compile Include="Assets\Scripts\Application\RegisterManager\RegisterManger2.cs" />

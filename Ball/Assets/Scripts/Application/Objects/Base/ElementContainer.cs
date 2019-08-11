@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ElementContainer : MonoBehaviour
+public class ElementContainer
 {
     public Consts.ELEMENTCONTAINER_TYPE Type;
     public int Level;
@@ -17,23 +17,28 @@ public class ElementContainer : MonoBehaviour
 
     public bool IsSelected=false;
 
+    
     ////Functions
     /*Reduce capacity while use it */
     public void ConsumeOnce(){
-
+        this.NowCapacity-=this.ConsumeUnit;
     }
 
     public void ReversionToFull(){
-
+        this.NowCapacity=MaxCapacity;
     }
 
     /* Add x% MaxCapacity  */
     public void AddMaxCapacity(float rate){
-
+        MaxCapacity=(1+rate)*MaxCapacity;
     }
 
     /*Add x% NowCapacity */
     public void AddNowCapacity(float rate){
+        NowCapacity=(1+rate)*NowCapacity;
+    }
+
+    public void Execute(){
 
     }
 }

@@ -22,6 +22,11 @@ public static class Consts
         WALL_SIMPLE=5
     }
     
+    public enum ENEMY_TYPE{
+        MONSTER_1=1,
+        MONSTER_2=2,
+        MONSTER_3=3
+    }
     
     //Model
 
@@ -29,6 +34,5 @@ public static class Consts
     public const string V_UIMain="V_UIMain";
     //Controller
     public const string C_ChangeScene="C_ChangeScene";
-
     public const string C_TestCommand="C_TestCommand";
 }
