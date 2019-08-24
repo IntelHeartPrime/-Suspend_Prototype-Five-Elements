@@ -15,13 +15,15 @@ public class UIMain : VisualView
     }
 
     //PlayLevel按钮函数
+    /*
     public void PlayLevelBtn(){
-        VisualMVC.Instance.SendEvent(Consts.C_ChangeScene,"2.SingleLevel");
+        VisualMVC.Instance.SendEvent(Consts.C_ChangeScene,"xxxxx");
         Debug.Log("Load Scene: SingleLevel");
     }
+    */
 
     public void MultiPlayerBtn(){
-        VisualMVC.Instance.SendEvent(Consts.C_ChangeScene,"3.MultiPlayerLevel");
-        Debug.Log("Load Scene: MultiPlayerLevel");
+        VisualMVC.Instance.SendEvent(Consts.C_ChangeScene,"2.Game");
+        Debug.Log("Load Scene: Game");
     }
 }

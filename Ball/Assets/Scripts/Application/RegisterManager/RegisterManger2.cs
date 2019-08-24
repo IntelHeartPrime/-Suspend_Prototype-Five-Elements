@@ -3,13 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RegisterManger2 : MonoBehaviour
-{
+{   
+    public VisualModel ChessModel;
+    public VisualView ChessView;
+
     // Start is called before the first frame update
     void  Awake() {
-        //Register Controller
-        VisualMVC.Instance.RegisterController(Consts.C_TestCommand,typeof(TestCommand));
+        //register Model
+        VisualMVC.Instance.RegisterModel(this.ChessModel);
+        this.ChessModel.transform.parent=GameObject.FindGameObjectWithTag("models").gameObject.transform;
+
+        //register View
+        VisualMVC.Instance.RegisterView(this.ChessView);
+        
     }
     void Start(){
-        VisualMVC.Instance.SendEvent(Consts.C_TestCommand,"");
-    }
+
+     }
 }

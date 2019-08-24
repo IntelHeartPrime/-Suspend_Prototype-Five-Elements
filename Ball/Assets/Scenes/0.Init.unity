@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 541336992}
   m_Layer: 0
   m_Name: RegisterManager
-  m_TagString: Untagged
+  m_TagString: RegisterManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

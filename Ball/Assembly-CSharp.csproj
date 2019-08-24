@@ -55,13 +55,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Application\1.Model\ChessModel.cs" />
+     <Compile Include="Assets\Scripts\Application\2.View\ChessView.cs" />
      <Compile Include="Assets\Scripts\Application\2.View\UIMain.cs" />
      <Compile Include="Assets\Scripts\Application\3.Controller\ChangeSceneCommand.cs" />
      <Compile Include="Assets\Scripts\Application\3.Controller\TestCommand.cs" />
      <Compile Include="Assets\Scripts\Application\Consts.cs" />
-     <Compile Include="Assets\Scripts\Application\Objects\Base\ElementContainer.cs" />
-     <Compile Include="Assets\Scripts\Application\Objects\Base\ElementUnit.cs" />
-     <Compile Include="Assets\Scripts\Application\Objects\Base\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Application\Objects\Chess.cs" />
+     <Compile Include="Assets\Scripts\Application\Objects\Map.cs" />
+     <Compile Include="Assets\Scripts\Application\Objects\Pos.cs" />
+     <Compile Include="Assets\Scripts\Application\Objects\Step.cs" />
      <Compile Include="Assets\Scripts\Application\RegisterManager\RegisterManager.cs" />
      <Compile Include="Assets\Scripts\Application\RegisterManager\RegisterManager1.cs" />
      <Compile Include="Assets\Scripts\Application\RegisterManager\RegisterManger2.cs" />
