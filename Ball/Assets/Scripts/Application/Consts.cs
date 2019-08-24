@@ -15,19 +15,21 @@ public static class Consts
         ELEPHANT=0,
         LION=1,
         TIGER=2,
-        LEOPRD=3,
+        LEOPARD=3,
         WOLF=4,
         DOG=5,
         CAT=6,
-        MOUSE=10
+        MOUSE=7
     }
     
     public enum MapType
     {
         ROAD=0,
         WATER=1,
-        PITFALL=2,
-        NEST=3
+        PITFALL_RED=2,
+        PITFALL_BULE=3,
+        NEST_RED=4,
+        NEST_BULE=5
     }
     //Model
     public const string M_ChessModel="M_ChessModel";
@@ -38,4 +40,7 @@ public static class Consts
     
     //Controller
     public const string C_ChangeScene="C_ChangeScene";
+
+    //View_EVENT
+    public const string VE_InitiateChess="VE_InitiateChess";
 }

@@ -238,6 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ChessModel: {fileID: 1972905260}
+  ChessView: {fileID: 1977644183}
 --- !u!1 &348709571
 GameObject:
   m_ObjectHideFlags: 0
@@ -846,6 +847,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19fdc81794f5745789db75a0dd33a3b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nowRound: 0
 --- !u!1 &1977644181
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,6 +857,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1977644182}
+  - component: {fileID: 1977644183}
   m_Layer: 0
   m_Name: ChessView
   m_TagString: Untagged
@@ -876,3 +879,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1977644183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977644181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 351a0b70f8c82474c9dd400e1c85bf5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttationEvents: []
+  LeftUpPos: {x: -2.79, y: 3.6}
+  Unit_x: 0.8
+  Unit_y: 0.8
+  Para_Scale: 0.72
+  Road: {fileID: 2252972774317261148, guid: 73157afa97c854cd1b83bc6b3e0fcfd1, type: 3}
+  Water: {fileID: 6529603127184611645, guid: a9760e607294e47d386612243097ed1a, type: 3}
+  Pitfall_Red: {fileID: 4950660721454886898, guid: 7bfa77b10665c47c9a3171b2462c816a,
+    type: 3}
+  Pitfall_Bule: {fileID: 2003650718458165226, guid: f667ab0a392fc491297de6f377e405d3,
+    type: 3}
+  Nest_Red: {fileID: 4122402320166656896, guid: c3fe3e3a58ba8435cb46d0d58f2fb070,
+    type: 3}
+  Nest_Bule: {fileID: 5967185221122280470, guid: fc4ef2739daef4d5c866ffd1b2d844b9,
+    type: 3}
+  Elephant: {fileID: 1157383708456227007, guid: f1052acb1aea24599ae532ca6908c3f5,
+    type: 3}
+  Lion: {fileID: 4942775814439626895, guid: 1723d8f1f09ee4224b86c42ff8062951, type: 3}
+  Tiger: {fileID: 5705599197936527108, guid: 99e7e73b88b9249ca8ee3a34f44ed082, type: 3}
+  LeoPard: {fileID: 8993459751665815879, guid: d7d6bd28fcbab428096d5fb932709fe4, type: 3}
+  Wolf: {fileID: 5104512669326724948, guid: cb356389b95394dde81ac0930d466795, type: 3}
+  Dog: {fileID: 8176486163093502630, guid: f4c2f3fbd25a943da9df7215cedac454, type: 3}
+  Cat: {fileID: 7103754712668235020, guid: f2b63661847cb4f1a9274d8a9e7b3f66, type: 3}
+  Mouse: {fileID: 5884023363418727796, guid: a00da46a9ed4d4da79f95740441752eb, type: 3}
